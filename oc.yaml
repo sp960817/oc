@@ -15,7 +15,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"ss2022","type":"ss","server":"bwg.151646.xyz","port":12345,"cipher":"2022-blake3-aes-128-gcm","password":"7pYnr/6EVjBCXxMYRT7wTA==","udp":true,"udp-over-tcp":true,"udp-over-tcp-version":"2","ip-version":"ipv4","plugin":"shadow-tls","client-fingerprint":"chrome","plugin-opts":{"host":"www.apple.com","password":"q9t3e5q2","version":3}}
+  - {"name":"ss2022","type":"ss","server":"bwg.151646.xyz","port":443,"cipher":"2022-blake3-aes-128-gcm","password":"7pYnr/6EVjBCXxMYRT7wTA==","udp":true,"udp-over-tcp":true,"udp-over-tcp-version":"2","ip-version":"ipv4","plugin":"shadow-tls","client-fingerprint":"chrome","plugin-opts":{"host":"www.tesla.com","password":"q9t3e5q2","version":3}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
